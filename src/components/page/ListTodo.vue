@@ -1,8 +1,9 @@
 <template>
     <div>
+        <Header/>
         <div class="container">
             <div class="header">
-                <Header title="Task Management"/>
+                <h2>Task Management</h2>
             </div>
             <div class="main-content">
                 <div class="section-input">
@@ -118,7 +119,7 @@
 </template>
 
 <script>
-    import Header from './Header.vue'
+    import Header from './Header'
     import Vue from 'vue';
     import VueToast from 'vue-toast-notification';
     // Import one of available themes

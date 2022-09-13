@@ -41,7 +41,7 @@ export default {
             }
             /**Check User */
             Vue.$toast.open({type:'success', message:'Đăng nhập thành công'});
-            this.$router.push('/user');
+            this.$router.push('/list-to-do');
         }
     },
     mounted: function () {
