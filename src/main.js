@@ -6,11 +6,14 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import VueRouter from 'vue-router'
 
 import {routers_data} from './routers'
+import Vuex from 'vuex'
+import Storage from './store/index'
 
 Vue.config.productionTip = false
 
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
+Vue.use(Vuex);
 
 Vue.use(VueRouter);
 const router = new VueRouter({
@@ -19,7 +22,12 @@ const router = new VueRouter({
     strict: true, // applies to all routes
 })
 
+const store = new Vuex.Store(Storage);
+//store.state.a // -> `moduleA`'s state
+//store.state.b // -> `moduleB`'s state
+
 new Vue({
   router,
+  store,
   render: h => h(App),
 }).$mount('#app')

@@ -5,6 +5,7 @@ import ListPost from './components/page/ListPost'
 import PostDetail from './components/page/PostDetail'
 import UserGeneric from './components/page/UserGeneric'
 import Navigation from './components/page/Navigation'
+import Vuex from './components/page/VueX/Vuex'
 
 export const routers_data = [
     {path:'/', name:'HomePage', component:HomePage},
@@ -31,5 +32,6 @@ export const routers_data = [
         ]
     },
     {path:'/navigation', name:'Navigation ', component:Navigation},
+    {path:'/vuex', name:'Vuex ', component:Vuex},
     {path: '/:pathMatch(.*)*', name: 'NotFound', component: UserGeneric },
 ];

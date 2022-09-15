@@ -12,6 +12,7 @@
                 <li @click.prevent="goToPage('/customer/posva','UserID')" :class="{active : $route.name.trim() == 'UserID'}"><a href="#">Customer</a></li>
                 <li @click.prevent="goToPage('/customer/posva/profile','UserIDChildren')" :class="{active : $route.name.trim() == 'UserIDChildren'}"><a href="#">Customer profile</a></li>
                 <li @click.prevent="goToPage('/navigation','Navigation')" :class="{active : $route.name.trim() == 'Navigation'}"><a href="#">Navigation</a></li>
+                <li @click.prevent="goToPage('/vuex','Vuex')" :class="{active : $route.name.trim() == 'Vuex'}"><a href="#">Vuex</a></li>
             </ul>
         </div>
     </div>
