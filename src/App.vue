@@ -16,7 +16,7 @@ export default {
       () => this.$route.params,
       (toParams, previousParams) => {
         // react to route changes...
-        console.log('Route change');
+        // console.log('Route change');
       }
     )
   },

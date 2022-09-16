@@ -27,13 +27,13 @@ const modulesB = {
 }
 
 export default {
-    modules: {
-        a: modulesA,
-        b: modulesB
-    },
-    // state: stateG,
-    // getters: gettersG,
-    // mutations: mutationsG,
-    // actions:actionsG,
+    // modules: {
+    //     a: modulesA,
+    //     b: modulesB
+    // },
+    state: stateG,
+    getters: gettersG,
+    mutations: mutationsG,
+    actions:actionsG,
 }
 

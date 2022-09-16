@@ -2,7 +2,7 @@
     <div>
         <h4>Component 3</h4>
         <div class="content">(Props) Title: <strong>{{title}}</strong></div>
-        <div class="content">(Vuex) Title: <strong>{{$store.state.a.name}}</strong></div>
+        <div class="content">(Vuex) Title: <strong>{{$store.state.name}}</strong></div>
         <div class="content">(Vuex - mapGetters) Title: <strong>{{name}}</strong></div>
         <div><input type="text" v-model="text" class="form-control"></div><br/>
         <div>
