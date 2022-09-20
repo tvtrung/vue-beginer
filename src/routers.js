@@ -8,6 +8,9 @@ import Navigation from './components/page/Navigation'
 import Vuex from './components/page/VueX/Vuex'
 import LifeCycle from './components/page/LifeCycle'
 import Axios from './components/page/Axios'
+import Mixins from './components/page/mixins/Mixins'
+import EventBus from './components/page/EventBus/index'
+import Plugins from './components/page/Plugins/index'
 
 export const routers_data = [
     {path:'/', name:'HomePage', component:HomePage},
@@ -37,5 +40,8 @@ export const routers_data = [
     {path:'/vuex', name:'Vuex ', component:Vuex},
     {path:'/lifecycle', name:'LifeCycle ', component:LifeCycle},
     {path:'/axios', name:'Axios ', component:Axios},
+    {path:'/mixins', name:'Mixins ', component:Mixins},
+    {path:'/eventbus', name:'EventBus ', component:EventBus},
+    {path:'/plugin', name:'Plugins ', component:Plugins},
     {path: '/:pathMatch(.*)*', name: 'NotFound', component: UserGeneric },
 ];

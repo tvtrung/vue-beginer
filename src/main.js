@@ -8,12 +8,16 @@ import VueRouter from 'vue-router'
 import {routers_data} from './routers'
 import Vuex from 'vuex'
 import Storage from './store/index'
+import Bus from './bus/EventBus'
+import NotieGlobal from './plugins/notie-global'
 
 Vue.config.productionTip = false
 
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
 Vue.use(Vuex);
+Vue.use(Bus);
+Vue.use(NotieGlobal);
 
 Vue.use(VueRouter);
 const router = new VueRouter({

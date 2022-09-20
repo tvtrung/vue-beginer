@@ -15,6 +15,9 @@
                 <li @click.prevent="goToPage('/vuex','Vuex')" :class="{active : $route.name.trim() == 'Vuex'}"><a href="#">Vuex</a></li>
                 <li @click.prevent="goToPage('/lifecycle','LifeCycle')" :class="{active : $route.name.trim() == 'LifeCycle'}"><a href="#">Life Cycle</a></li>
                 <li @click.prevent="goToPage('/axios','Axios')" :class="{active : $route.name.trim() == 'Axios'}"><a href="#">Axios</a></li>
+                <li @click.prevent="goToPage('/mixins','Mixins')" :class="{active : $route.name.trim() == 'Mixins'}"><a href="#">Mixins</a></li>
+                <li @click.prevent="goToPage('/eventbus','EventBus')" :class="{active : $route.name.trim() == 'EventBus'}"><a href="#">Event Bus</a></li>
+                <li @click.prevent="goToPage('/plugin','Plugins')" :class="{active : $route.name.trim() == 'Plugins'}"><a href="#">Plugins</a></li>
             </ul>
         </div>
     </div>
