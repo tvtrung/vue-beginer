@@ -35,7 +35,7 @@
 <style scoped>
     .comp1{
         width: 100%;
-        background-color: #a9a413;
+        background-color: rgb(248, 213, 11);
         padding: 15px;
     }
 </style>
