@@ -4,6 +4,8 @@
         <div class="container">
             <div id="message">{{content}}</div>
             <button @click="changeText()">Change</button>
+            <hr>
+            <div class="text-center"><img src="../../assets/images/lifecycle.png" alt="" style="width:50%"></div>
         </div>
     </div>
 </template>

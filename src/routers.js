@@ -11,6 +11,7 @@ import Axios from './components/page/Axios'
 import Mixins from './components/page/mixins/Mixins'
 import EventBus from './components/page/EventBus/index'
 import Plugins from './components/page/Plugins/index'
+import Style from './components/page/Style/parent'
 
 export const routers_data = [
     {path:'/', name:'HomePage', component:HomePage},
@@ -43,5 +44,6 @@ export const routers_data = [
     {path:'/mixins', name:'Mixins ', component:Mixins},
     {path:'/eventbus', name:'EventBus ', component:EventBus},
     {path:'/plugin', name:'Plugins ', component:Plugins},
+    {path:'/style', name:'Style ', component:Style},
     {path: '/:pathMatch(.*)*', name: 'NotFound', component: UserGeneric },
 ];

@@ -18,6 +18,7 @@
                 <li @click.prevent="goToPage('/mixins','Mixins')" :class="{active : $route.name.trim() == 'Mixins'}"><a href="#">Mixins</a></li>
                 <li @click.prevent="goToPage('/eventbus','EventBus')" :class="{active : $route.name.trim() == 'EventBus'}"><a href="#">Event Bus</a></li>
                 <li @click.prevent="goToPage('/plugin','Plugins')" :class="{active : $route.name.trim() == 'Plugins'}"><a href="#">Plugins</a></li>
+                <li @click.prevent="goToPage('/style','Style')" :class="{active : $route.name.trim() == 'Style'}"><a href="#">Style</a></li>
             </ul>
         </div>
     </div>
