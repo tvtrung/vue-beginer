@@ -42,7 +42,7 @@ export default {
         setName:(state, name) => {
             state.name = name;
             console.log('---------------');
-            console.log('mutations');
+            console.log('[mutations]');
             console.log('state: ' + state);
             console.log('name: ' + name);
         },
@@ -50,6 +50,7 @@ export default {
     actions:{
         updateProfile(context, name){
             console.log('---------------');
+            console.log('[action]');
             console.log('updateProfile');
             console.log('context: ',context);
             console.log('name: ',name);

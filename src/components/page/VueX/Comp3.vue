@@ -7,7 +7,7 @@
         <div class="content">(Vuex) Title: <strong>{{$store.state.name}}</strong></div>
         <button @click="$store.commit('setName', text);" class="btn btn-warning">Change Text (mutations)</button>
         <br><br>
-        <button @click="$store.dispatch('updateProfile', text);" class="btn btn-warning">Change Text (dispatch)</button>
+        <button @click="$store.dispatch('updateProfile', text);" class="btn btn-warning">Change Text (action)</button>
         <hr>
         <div class="content">(Vuex Module A) Title: <strong>{{$store.state.a.name}}</strong></div>
         

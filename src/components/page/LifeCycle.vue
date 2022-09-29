@@ -21,6 +21,7 @@ export default {
             content: 'LifeCycle Vuejs'
         }
     },
+    /**Khởi tạo Component */
     beforeCreate(){
         console.log('------------------------------')
         console.log('beforeCreate:', this.content); /** undefined */
@@ -31,6 +32,7 @@ export default {
         console.log('created:', this.content); /** LifeCycle Vuejs */
         console.log('created DOM message:', document.getElementById('message')); /** null */
     },
+    /**Thao tác DOM */
     beforeMount(){
         console.log('------------------------------')
         console.log('beforeMount:', this.content) /** LifeCycle Vuejs */

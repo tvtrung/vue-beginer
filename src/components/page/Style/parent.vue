@@ -26,6 +26,11 @@
         components:{
             Header,
             child
+        },
+        data(){
+            return {
+                color:'orange',
+            }
         }
     }
 </script>
@@ -41,7 +46,7 @@
             display: inline-block;
             padding: 0 15px;
             a{
-                color: green;
+                color:v-bind(color);
                 &:hover{
                     color: blue;
                 }

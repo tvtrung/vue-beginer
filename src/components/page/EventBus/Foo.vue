@@ -20,7 +20,11 @@ export default {
     mounted(){
         this.$bus.on('increaseCounter', (value) => {
             this.count = value;
+            console.log('on bus: ',value);
         })
+    },
+    destroyed(){
+        this.$bus.off('increaseCounter');
     }
 }
 </script>

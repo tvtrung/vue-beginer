@@ -20,7 +20,7 @@ export const routers_data = [
     {path:'/list-post', name:'ListPost ', component:ListPost},
     {path:'/post-detail/:id', name:'PostDetail ', component:PostDetail},
     {path:'/post-detail/number/:id(\\d+)', name:'PostDetailNumber ', component:PostDetail}, //matches only numbers
-    {path: '/user-:id(.*)',name:'AfterUser', component: UserGeneric },
+    {path: '/user-:id(.*)',name:'AfterUser', component: UserGeneric }, //user-2/123
     {path: '/chapters/:id+', name: 'ChaptersA', component: UserGeneric }, // matches /one, /one/two, /one/two/three, etc
     {path: '/chapters/:id*', name: 'ChaptersB', component: UserGeneric }, // matches /, /one, /one/two, /one/two/three, etc
     // will match /users/posva but not:

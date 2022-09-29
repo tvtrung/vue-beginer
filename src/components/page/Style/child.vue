@@ -12,6 +12,9 @@
 </script>
 
 <style scoped>
+    .welcome-text[data-v-102afaf0] {
+        font-weight: bold;
+    }
     .welcome-text {
         color: blue;
     }
